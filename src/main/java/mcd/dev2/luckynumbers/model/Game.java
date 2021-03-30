@@ -148,6 +148,7 @@ public class Game implements Model {
         for (int i = 0; i < boards.length; i++) {
             if (boards[i].isFull()) {
                 winner = i;
+                break;
             }
         }
         return winner;
